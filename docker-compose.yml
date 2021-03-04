@@ -11,7 +11,7 @@ services:
     environment: 
       - EXTERNAL_PORT=3001
       - PGUSER=rushabhmehta
-      - PGPASSWORD=
+      - PGPASSWORD=1234
       - PGDATABASE=nps_database
       - PGHOST=nsp_db # NAME OF THE SERVICE
     depends_on: 
@@ -23,7 +23,7 @@ services:
       - "5432:5432"
     environment: 
       - POSTGRES_USER=rushabhmehta
-      - POSTGRES_PASSWORD=
+      - POSTGRES_PASSWORD=1234
       - POSTGRES_DB=nps_database
     volumes:
       - nps_data:/var/lib/postgresql/data
