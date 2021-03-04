@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/RushabhM2/docker-node-sequelize/issues"
   },
-  "homepage": "https://github.com/RushabhM2/docker-node-sequelize#readme"
+  "homepage": "https://github.com/RushabhM2/docker-node-sequelize#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "sequelize": "^6.5.0"
+  }
 }
